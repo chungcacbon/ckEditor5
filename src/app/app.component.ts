@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { ChangeEvent, FocusEvent, BlurEvent } from '@ckeditor/ckeditor5-angular/ckeditor.component';
 import Adapter from './ckeditorAdapter';
-import  Editor from '../../ckeditor5_custom/build/ckeditor'
+// import  Editor from '../../ckeditor5_custom/build/ckeditor'
 
 @Component({
   selector: 'app-root',
@@ -11,9 +11,9 @@ import  Editor from '../../ckeditor5_custom/build/ckeditor'
 })
 export class AppComponent {
   title = 'TestCkeditor';
-  public Editor = Editor;
+  // public Editor = Editor;
 
-  editor = Editor;
+  // editor = Editor;
   public isDisabled = false;
   ckconfig:any;
   public editorData :any=
